@@ -1,24 +1,30 @@
-# covid19
+### To run the application in production mode:
 
-## Project setup
-```
+# needs to be build in development
+
+# installs a local server
+npm install -g serve
+
+# runs the application
+serve -s dist
+
+# follow the link in the console (http://localhost:5000/#/)
+
+### To run the application in development mode:
+
+# please use a later npm version (node v13+)
+nvm use v14.4.0
+
+# install command line interface for vue
+npm install -g @vue/cli
+
+# install all the dependencies
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# runs the application
+npm run serve-dev
 
-### Compiles and minifies for production
-```
+# follow the link in the console (http://localhost:8085/#/)
+
+# To build the application
 npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
