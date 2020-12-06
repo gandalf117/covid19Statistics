@@ -7,6 +7,7 @@
     "email": "kiril_ss@yahoo.com"
   },
   "scripts": {
+    "start": "vue-cli-service serve",
     "serve": "vue-cli-service serve",
     "serve-dev": "vue-cli-service serve --mode development --port 8085",
     "build": "vue-cli-service build",
